@@ -183,7 +183,7 @@ export class App {
     
     // Set default increment to 1.
     let moveIncrement: number = 1;
-
+    
     if (!Number.isNaN(parseInt(inputCmdString.substring(5, 6))))
       moveIncrement = parseInt(inputCmdString.substring(5, 6));
     else if (!(inputCmdString === Commands.MOVE)) {
